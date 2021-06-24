@@ -5,9 +5,9 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-          <h1 class="display-3">Welcome to my Blog Project!</h1>
+          <h1 class="display-3">Welcome to my Browns Community Project!</h1>
           <p>This is the start. A simple blog to post about the Browns. Eventually I would like to add a section for photos as well.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+          <p><a class="btn btn-primary btn-lg" <%= link_to "Explore", articles_path %> 
         </div>
       </div>
 
@@ -15,14 +15,16 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            
+            <h2>Write and Post Articles!</h2>
+            <p>We would love to know your thoughts and feelings on all things related to our Browns! </p>
+            <p><a class="btn btn-secondary" <%= link_to "Write a Post Now! »", new_article_path %></a></p>
+            </span>
           </div>
           <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            <h2>Share your Favorite Browns Photos!</h2>
+            <p>Share some of your favorite photos of our Dawgs! </p>
+            <p><a class="btn btn-secondary" href="#" role="button">Coming Soon! »</a></p>
           </div>
           <div class="col-md-4">
             <h2>Heading</h2>
@@ -38,7 +40,7 @@
     </main>
 
     <footer class="container">
-      <p>© Company 2017-2018</p>
+      <p>© Company 2021-2022</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
