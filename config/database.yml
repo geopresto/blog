@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: myapp_development
+  database: geo
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: myapp_production
-  username: myapp
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  database: dfpfpvbduq19q4
+  username: wilkuldlbfvetg
+  password: fc04242ee70d6d10e737bc6fd566842562eb6d99098b8da29b3f7c56f4bd191d
