@@ -5,13 +5,13 @@
 
   
   
-  <div class=" text-center h-100 p-5 text-white  rounded-3 shadow-sm">
+  <div class=" text-center h-100 p-5 bg-light bg-gradient text-black  rounded-3 shadow-sm">
         <p><%= @article.body %></p>
   </div>
 
   <ul>
-    <li><%= link_to "Edit", edit_article_path(@article) %></li>
-    <li><%= link_to "Destroy", article_path(@article),
+    <li><button type="button" class="btn btn-warning"><%= link_to "Edit", edit_article_path(@article) %></button></li>
+    <li><button type="button" class="btn btn-danger"><%= link_to "Destroy", article_path(@article),
                     method: :delete,
                     data: { confirm: "Are you sure?" } %></li>
   </ul>
