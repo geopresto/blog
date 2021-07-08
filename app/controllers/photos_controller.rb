@@ -28,6 +28,9 @@ class PhotosController < ApplicationController
     
         redirect_to root_path
     end
+
+    def image
+    end
     
     private
 
