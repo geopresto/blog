@@ -20,7 +20,6 @@ class ArticlesController < ApplicationController
     if @article.save
       redirect_to @article
     else
-      byebug
       render :new
     end
   end

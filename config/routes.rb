@@ -7,6 +7,10 @@ Rails.application.routes.draw do
    resources :comments
   end
 
+  resources :photos do
+    resources :comments
+  end
+
   get 'login', to: 'sessions#new'
   post 'login', to: 'sessions#create'
   get 'welcome', to: 'sessions#welcome'

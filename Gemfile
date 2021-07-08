@@ -25,7 +25,7 @@ gem 'bootstrap', '~> 5.0.1'
 gem 'popper_js'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'active_storage_validations'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
