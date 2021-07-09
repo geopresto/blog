@@ -22,14 +22,19 @@ html body {
 }
 
 .jumbotron{
-    background-image: asset-url('brownslogowhite.jpeg');
+    background-image: asset-url('Receivers.jpeg');
     background-position: center center;
     background-size: cover; 
 	background-repeat: no-repeat; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+      
 }
 
 .jumboletters{
-    color:rgba(253, 93, 0, 0.911)
+    color:rgba(255, 248, 248, 0.966)
 }
 
 .jumbotron2{
